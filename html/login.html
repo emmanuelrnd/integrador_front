@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/login.css">
+    <title>FORMULARIO LOGIN</title>
+</head>
+<body>
+    <div class="container-form register hide">
+        <div class="information">
+            <div class="info-childs">
+                <h2>¡Bienvenido!</h2>
+                <p>Si ya tienes cuenta logeate</p>
+                <input type="button" value="Iniciar Sesion" id="sing-in">
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-childs">
+                <h2>Crear una cuenta</h2>
+                <p>Completa el formulario</p>
+                <form class="form">
+                    <label>
+                        <i class='bx bx-envelope' ></i>
+                        <input type="email" name="" id="" placeholder="Correo Electronico"> 
+                    </label>                    
+                    <label >
+                        <i class='bx bx-user' ></i>
+                        <input type="text" name="" id="" placeholder="Nombre">
+                    </label>
+                    <label >
+                        <i class='bx bx-user' ></i>
+                        <input type="text" name="" id="" placeholder="Apellido">
+                    </label>
+                    <label >
+                        <box-icon type='solid' name='calendar'></box-icon>
+                        <input type="date" name="" id="" placeholder="Fecha de Nacimiento">
+                    </label>
+                    <label>
+                        <i class='bx bx-user' ></i>
+                        <input type="text" name="" id="" placeholder="Nombre de Usuario"> 
+                    </label>
+                    <label>
+                        <i class='bx bx-lock' ></i>
+                        <input type="password" name="" id="" placeholder="Contraseña">
+                    </label>
+                    <input type="submit" value="Registrarse">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-form login">
+        <div class="information">
+            <div class="info-childs">
+                <h2>¡Bienvenido!</h2>
+                <p>Si aun no tienes cuenta Registrate</p>
+                <input type="button" value="Registrarse" id="sing-up">
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-childs">
+                <h2>Iniciar Sesion</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-github' ></i>                    
+                </div>
+                <p>Ingresa tus datos</p>
+                <form class="form">
+                    <label>
+                        <i class='bx bx-envelope' ></i>
+                        <input type="text" name="" id="" placeholder="Usuario"> 
+                    </label>
+                    <label>
+                        <i class='bx bx-lock' ></i>
+                        <input type="password" name="" id="" placeholder="Contraseña">
+                    </label>
+                    <input type="submit" value="Iniciar Sesion">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/js/login.js"></script>
+        
+</body>
+</html>
